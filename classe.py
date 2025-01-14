@@ -11,7 +11,7 @@ class Navire:
         if position in self.positions and position not in self.touches:
             self.touches.append(position)
 
-    def est_coule(self):
+    #def est_coule(self):
         #Vérifie si le navire est coulé
 
 
@@ -79,7 +79,7 @@ class Joueur:
             Navire("Sous-marin", 2),
             Navire("Sous-marin", 2)
         ]
-        self.tirs = []  
+        self.tirs = []
 
     def tirer(self, x, y):
         if (x, y) not in self.tirs:
