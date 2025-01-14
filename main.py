@@ -69,6 +69,10 @@ class Plateau:
         return all(navire.est_coule() for navire in self.navires)
 
 
+
+
+
+
 class JeuBatailleNavale:
     def __init__(self):
         self.fenetre = tk.Tk()
