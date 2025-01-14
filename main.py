@@ -96,6 +96,9 @@ class JeuBatailleNavale:
         self.boutons_joueur = []
         self.boutons_ordinateur = []
 
+
+
+
         for i in range(10):
             ligne_joueur = []
             ligne_ordinateur = []
